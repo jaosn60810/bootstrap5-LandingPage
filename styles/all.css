@@ -8396,6 +8396,10 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-s-48 {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12400,6 +12404,10 @@ textarea.form-control-lg {
 
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+
+  .fs-s-48 {
+    font-size: 3rem !important;
   }
 }
 @media print {
