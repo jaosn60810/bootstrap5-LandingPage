@@ -12447,3 +12447,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header {
+  height: 627px;
+  background-size: cover;
+  background-position: bottom center;
+}
