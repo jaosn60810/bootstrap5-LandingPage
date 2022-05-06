@@ -24,12 +24,16 @@
     </style>
   </head>
   <body>
+    <!-- 導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
+        <!-- Logo -->
         <a class="navbar-brand fs-4" href="#"
           ><i class="bi bi-record-fill text-info"></i
           ><span class="text-dark fw-bold">小懶蟲</span></a
         >
+
+        <!-- 漢堡 -->
         <button
           class="navbar-toggler"
           type="button"
@@ -41,6 +45,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- 導覽列連結 -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
@@ -65,6 +71,7 @@
       </div>
     </nav>
 
+    <!-- banner -->
     <header class="py-7" style="background-image: url(./img/bg_paper.png)">
       <div class="container text-center">
         <h4 class="fw-bold text-info h5">HAPPY LIFE</h4>
@@ -75,9 +82,13 @@
     <section class="py-5 container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
+          <!-- 表單 -->
           <form action="" class="p-lg-5 shadow-lg">
             <h3 class="deco-line mb-3 fw-bold">選擇方案</h3>
+
+            <!-- 不同方案 -->
             <div class="row row-cols-1 row-cols-lg-3 mb-5 gy-2">
+              <!-- 小小搭懶蟲 -->
               <div class="col">
                 <button
                   type="button"
@@ -87,15 +98,19 @@
                   NT 298/月
                 </button>
               </div>
+
+              <!-- 睡一整天囉 -->
               <div class="col">
                 <button
-                  type="button "
+                  type="button"
                   class="w-100 btn btn-outline-info btn-lg py-3 text-dark fw-bold"
                 >
                   睡一整天囉<br class="d-none d-lg-block" />
                   NT 666/月
                 </button>
               </div>
+
+              <!-- 客製化方案 -->
               <div class="col">
                 <button
                   type="button"
@@ -106,8 +121,13 @@
                 </button>
               </div>
             </div>
+
+            <!-- 填寫資料 -->
             <h3 class="deco-line mb-3 fw-bold">填寫資料</h3>
+
+            <!-- 全名 -->
             <div class="row row-cols-1 row-cols-lg-2">
+              <!-- 名字 -->
               <div class="col">
                 <div class="mb-3">
                   <label for="firstName" class="form-label">名字</label>
@@ -119,6 +139,8 @@
                   />
                 </div>
               </div>
+
+              <!-- 姓氏 -->
               <div class="col">
                 <div class="mb-3">
                   <label for="lastName" class="form-label">姓氏</label>
@@ -131,6 +153,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- 手機號碼 -->
             <div class="mb-3">
               <label for="phone" class="form-label">手機號碼</label>
               <input
@@ -140,6 +164,8 @@
                 placeholder="例如：0912345678"
               />
             </div>
+
+            <!-- 電子郵件 -->
             <div class="mb-3">
               <label for="email" class="form-label">電子郵件</label>
               <input
@@ -149,6 +175,8 @@
                 placeholder="例如：name@example.com"
               />
             </div>
+
+            <!-- 住址 -->
             <div class="mb-3">
               <label for="address" class="form-label">住址</label>
               <input
@@ -158,6 +186,8 @@
                 placeholder="例如：台北市大安區..."
               />
             </div>
+
+            <!-- 方便聯繫時間 -->
             <div class="mb-3">
               <label for="contactTime" class="form-label">方便聯繫時間</label>
               <select id="contactTime" class="form-select">
@@ -167,8 +197,11 @@
                 <option>19:00-20:00</option>
               </select>
             </div>
+
+            <!-- 加購服務 -->
             <div class="mb-3">
               <p>加購服務</p>
+              <!-- 加購 1 -->
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
@@ -180,6 +213,8 @@
                   >每週一清掃家裡+100</label
                 >
               </div>
+
+              <!-- 加購 2 -->
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
@@ -191,6 +226,8 @@
                   >按摩+50</label
                 >
               </div>
+
+              <!-- 加購 3 -->
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
@@ -203,6 +240,8 @@
                 >
               </div>
             </div>
+
+            <!-- 備註說明 -->
             <div class="mb-5">
               <label for="exampleFormControlTextarea1" class="form-label"
                 >備註說明</label
@@ -213,6 +252,8 @@
                 rows="3"
               ></textarea>
             </div>
+
+            <!-- 表單按鈕 -->
             <div class="mb-3">
               <button
                 type="submit"
@@ -226,13 +267,16 @@
       </div>
     </section>
 
+    <!-- 協助區域 -->
     <section class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-4 fw-bold">需要其他協助嗎？</h2>
 
+        <!-- 卡片群組 -->
         <div
           class="row row-cols-1 row-cols-lg-3 justify-content-center gy-4 gy-lg-0"
         >
+          <!-- 電話 -->
           <div class="col help-card">
             <div class="card border-0 shadow">
               <div class="card-body text-center py-4 fs-4">
@@ -241,14 +285,18 @@
               </div>
             </div>
           </div>
-          <div class="col help-card">
+
+          <!-- FB -->
+          <a href="#" class="col help-card text-decoration-none text-dark">
             <div class="card border-0 shadow">
               <div class="card-body text-center py-4 fs-4">
                 <i class="bi bi-facebook text-info"></i>
                 <span>我就是個小懶蟲</span>
               </div>
             </div>
-          </div>
+          </a>
+
+          <!-- 常見問題 -->
           <a
             href="questionAndAnswer.html"
             class="col help-card text-decoration-none text-dark"

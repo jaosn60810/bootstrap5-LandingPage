@@ -24,12 +24,16 @@
     </style>
   </head>
   <body>
+    <!-- 導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
+        <!-- Logo -->
         <a class="navbar-brand fs-4" href="#"
           ><i class="bi bi-record-fill text-info"></i
           ><span class="text-dark fw-bold">小懶蟲</span></a
         >
+
+        <!-- 漢堡 -->
         <button
           class="navbar-toggler"
           type="button"
@@ -41,6 +45,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- 導覽列連結 -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
@@ -65,6 +71,7 @@
       </div>
     </nav>
 
+    <!-- banner -->
     <header class="py-7" style="background-image: url(./img/bg_paper.png)">
       <div class="container text-center">
         <h4 class="fw-bold text-info h5">Q & A</h4>
@@ -72,9 +79,12 @@
       </div>
     </header>
 
+    <!-- 手風琴 -->
     <section class="py-5 container min-vh-50">
       <div class="accordion custom-accordion mx-auto" id="accordionExample">
+        <!-- accordion-item 1 -->
         <div class="accordion-item">
+          <!-- 收放按鈕 -->
           <h3 class="accordion-header" id="headingOne">
             <button
               class="accordion-button"
@@ -87,6 +97,8 @@
               方案的服務內容可以調整嗎？
             </button>
           </h3>
+
+          <!-- 收放內容 -->
           <div
             id="collapseOne"
             class="accordion-collapse collapse show"
@@ -98,8 +110,11 @@
             </div>
           </div>
         </div>
+
+        <!-- accordion-item 2 -->
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <!-- 收放按鈕 -->
+          <h3 class="accordion-header" id="headingTwo">
             <button
               class="accordion-button collapsed"
               type="button"
@@ -110,7 +125,9 @@
             >
               一次只能購買一年嗎？
             </button>
-          </h2>
+          </h3>
+
+          <!-- 收放內容 -->
           <div
             id="collapseTwo"
             class="accordion-collapse collapse"
@@ -122,8 +139,11 @@
             </div>
           </div>
         </div>
+
+        <!-- accordion-item 3 -->
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+          <!-- 收放按鈕 -->
+          <h3 class="accordion-header" id="headingThree">
             <button
               class="accordion-button collapsed"
               type="button"
@@ -134,7 +154,9 @@
             >
               付款方式有哪些呢？
             </button>
-          </h2>
+          </h3>
+
+          <!-- 收放內容 -->
           <div
             id="collapseThree"
             class="accordion-collapse collapse"
@@ -149,13 +171,16 @@
       </div>
     </section>
 
+    <!-- 協助區域 -->
     <section class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-4 fw-bold">需要其他協助嗎？</h2>
 
+        <!-- 卡片群組 -->
         <div
           class="row row-cols-1 row-cols-lg-3 justify-content-center gy-4 gy-lg-0"
         >
+          <!-- 電話 -->
           <div class="col help-card">
             <div class="card border-0 shadow">
               <div class="card-body text-center py-4 fs-4">
@@ -164,14 +189,18 @@
               </div>
             </div>
           </div>
-          <div class="col help-card">
+
+          <!-- FB -->
+          <a href="#" class="col help-card text-decoration-none text-dark">
             <div class="card border-0 shadow">
               <div class="card-body text-center py-4 fs-4">
                 <i class="bi bi-facebook text-info"></i>
                 <span>我就是個小懶蟲</span>
               </div>
             </div>
-          </div>
+          </a>
+
+          <!-- 常見問題 -->
           <a
             href="questionAndAnswer.html"
             class="col help-card text-decoration-none text-dark"
@@ -187,6 +216,7 @@
       </div>
     </section>
 
+    <!-- 頁尾 -->
     <footer class="bg-secondary">
       <p class="text-center text-white lh-lg py-3 m-0 fs-s-14">
         Copyright © 2021 小懶蟲.All rights reserved.
