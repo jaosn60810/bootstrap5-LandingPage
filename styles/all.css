@@ -13442,3 +13442,13 @@ textarea.form-control-lg {
 .help-card {
   width: 284px;
 }
+
+.custom-accordion {
+  width: 735px;
+}
+
+@media (max-width: 991.98px) {
+  .custom-accordion {
+    width: 351px;
+  }
+}

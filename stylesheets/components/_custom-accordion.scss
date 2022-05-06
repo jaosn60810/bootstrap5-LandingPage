@@ -1,0 +1,9 @@
+.custom-accordion {
+  width: 735px;
+}
+
+@include media-breakpoint-down(lg) {
+  .custom-accordion {
+    width: 351px;
+  }
+}
