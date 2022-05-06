@@ -199,7 +199,10 @@ $utilities: map-merge(
     "min-viewport-height": (
       property: min-height,
       class: min-vh,
-      values: (100: 100vh)
+      values: (
+        50: 50vh,
+        100: 100vh
+        )
     ),
     // scss-docs-end utils-sizing
     // Flex utilities
