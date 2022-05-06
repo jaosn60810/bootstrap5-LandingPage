@@ -73,12 +73,12 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <form action="" class="p-lg-5 shadow-lg">
-            <h3 class="deco-line mb-3">選擇方案</h3>
-            <div class="row row-cols-1 row-cols-lg-3">
+            <h3 class="deco-line mb-3 fw-bold">選擇方案</h3>
+            <div class="row row-cols-1 row-cols-lg-3 mb-5 gy-2">
               <div class="col">
                 <button
                   type="button"
-                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark"
+                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark fw-bold"
                 >
                   小小搭懶蟲<br class="d-none d-lg-block" />
                   NT 298/月
@@ -87,7 +87,7 @@
               <div class="col">
                 <button
                   type="button "
-                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark"
+                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark fw-bold"
                 >
                   睡一整天囉<br class="d-none d-lg-block" />
                   NT 666/月
@@ -96,17 +96,176 @@
               <div class="col">
                 <button
                   type="button"
-                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark btn-special active"
+                  class="w-100 btn btn-outline-info btn-lg py-3 text-dark btn-special active fw-bold"
                 >
                   客製化方案<br class="d-none d-lg-block" />
                   客服詢價
                 </button>
               </div>
             </div>
+            <h3 class="deco-line mb-3 fw-bold">填寫資料</h3>
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col">
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">名字</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="例如：小明"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">姓氏</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="例如：陳"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">手機號碼</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                placeholder="例如：0912345678"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">電子郵件</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="例如：name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">住址</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="例如：台北市大安區..."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contactTime" class="form-label">方便聯繫時間</label>
+              <select id="contactTime" class="form-select">
+                <option>13:00-17:00</option>
+                <option>17:00-18:00</option>
+                <option>18:00-19:00</option>
+                <option>19:00-20:00</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <p>加購服務</p>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >每週一清掃家裡+100</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineCheckbox2"
+                  >按摩+50</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >聽你說話+150</label
+                >
+              </div>
+            </div>
+            <div class="mb-5">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >備註說明</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <button
+                type="submit"
+                class="btn btn-info py-2 w-100 fw-bold fs-5"
+              >
+                選擇方案
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold">需要其他協助嗎？</h2>
+
+        <div
+          class="row row-cols-1 row-cols-lg-3 justify-content-center gy-4 gy-lg-0"
+        >
+          <div class="col help-card">
+            <div class="card border-0 shadow">
+              <div class="card-body text-center py-4 fs-4">
+                <i class="bi bi-telephone-fill text-info"></i>
+                <span>07-555-666</span>
+              </div>
+            </div>
+          </div>
+          <div class="col help-card">
+            <div class="card border-0 shadow">
+              <div class="card-body text-center py-4 fs-4">
+                <i class="bi bi-facebook text-info"></i>
+                <span>我就是個小懶蟲</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="questionAndAnswer.html"
+            class="col help-card text-decoration-none text-dark"
+          >
+            <div class="card border-0 shadow">
+              <div class="card-body text-center py-4 fs-4">
+                <i class="bi bi-question-lg text-info"></i>
+                <span>常見問題</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-secondary">
+      <p class="text-center text-white lh-lg py-3 m-0 fs-s-14">
+        Copyright © 2021 小懶蟲.All rights reserved.
+      </p>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
