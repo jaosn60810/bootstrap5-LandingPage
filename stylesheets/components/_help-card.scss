@@ -1,3 +1,7 @@
 .help-card {
   width: 284px;
+
+  &:hover {
+    color: $info !important;
+  }
 }

@@ -13446,6 +13446,9 @@ textarea.form-control-lg {
 .help-card {
   width: 284px;
 }
+.help-card:hover {
+  color: #0dcaf0 !important;
+}
 
 .custom-accordion {
   width: 735px;
